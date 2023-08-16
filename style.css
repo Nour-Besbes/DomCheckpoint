@@ -1,0 +1,140 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(225, 171, 171);
+    overflow-x: hidden;
+}
+
+
+
+h1{
+    text-align: center;
+    color: brown;
+    font-size:40px;
+    padding:0;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    padding:10px 20px;
+    position: sticky;
+    top: 0px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-links li{
+ 
+    margin-right: 20px;
+    margin-top: 30px;
+   
+}
+.nav-links a{
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+    
+ 
+}
+.nav-links a:hover{
+    color:red;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+  
+}
+.logo img{
+    padding-right:15px;
+}
+#part1{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(225, 171, 171);
+    
+}
+#part1 img{
+    padding-right: 200px;
+    padding-top: 50px;
+    align-items: center;
+    padding-left: 100px;
+}
+.content{
+    display:flex;
+    padding: 50px;
+    margin-right: 600px;
+    align-items: center;
+   
+    
+    
+}
+.name{
+   
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    padding-right: 20px; 
+
+}
+.content button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #EE951B;
+    margin-right: 20px;
+
+}
+#prod{
+    border:3px solid black;
+    width:600px;
+    justify-content: space-between;
+    padding-left: 50px;
+    margin-left: 10px;
+    
+    
+}
+.PU{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    padding-right: 20px; 
+    text-align: center;
+
+}
+
+.val{
+    font-size: 30px;
+    padding-right: 15px;
+
+}
+.fact{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color:#2A3267;
+}
+h2{
+    color:#E4001A;
+    text-align: center;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+
+
+
+}
+#inf button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 15px;
+    border: solid 2px black;
+    background-color: #F3A0A1;
+}
+#inf{
+    display:flex;
+    justify-content: space-evenly;
+}

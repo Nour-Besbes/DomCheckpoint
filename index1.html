@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping cart</title>
+    <style>
+        .home{
+            display:flex;
+            justify-content: space-between;
+        }
+
+        body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(239, 204, 204);
+}
+
+
+
+h1{
+    text-align: center;
+    color: brown;
+    font-size:40px;
+    padding:0;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    padding:10px 20px;
+    position: sticky;
+    top: 0px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-links li{
+ 
+    margin-right: 20px;
+    margin-top: 30px;
+   
+}
+.nav-links a{
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+    
+ 
+}
+.nav-links a:hover{
+    color:red;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+  
+}
+.logo img{
+    padding-right:15px;
+}
+.par{
+    padding: 140px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.par button{
+    width: 200px;
+    height:100px;
+    font-size: larger;
+    font-style: italic;
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+       
+    </style>
+</head>
+<body>
+  
+       <div>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./logo.png" alt="logo">
+                 <h1><em>Shopping<sub>Card</sub></em></h1>
+            </div>
+            
+            <ul class="nav-links">
+               <li><a href="#">Home</a></li> 
+               <li><a href="index.html">Shopping</a></li>
+               <li><a href="index2.html">contact</a></li>
+
+            </ul>
+        
+        </nav>
+    </div>
+
+
+    <hr>
+    <section class="home">
+        <div class="image">
+            <img src="./png-shopping-online.png" alt="home">
+        </div>
+       
+        <div class="par">
+            <p>
+                Welcome to our online shopping cart experience! <br>
+                 Discover a world of convenience as you explore our carefully curated selection of products.
+            </p>
+            <a href="index.html">
+
+            <button id="btn">BUY NOW!</button>
+            </a>
+
+        </div>
+    </section>
+    
+    
+</body>
+</html>
